@@ -1,0 +1,67 @@
+/**
+ * Copyright 2015 Google Inc. All Rights Reserved.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+ html, body {
+    font-family: 'Roboto', 'Helvetica', sans-serif;
+  }
+
+  .mdl-layout__content{
+    padding-left: 10px;
+  }
+
+.logo{
+  width:32px;
+}
+
+.mdl-layout__header-row {
+    padding: 0 16px 0 20px!important;
+}
+
+
+
+h1{
+  font-size:30px!important;
+}
+
+h2{
+  font-size:25px!important;
+  display:block;
+}
+h3{
+  font-size:15px!important;
+  display:block;
+}
+.emote-container{
+  background-color: white!important;
+  min-width: 90px!important;
+  min-height: 90px!important;
+  box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 20%), 0 1px 5px 0 rgb(0 0 0 / 12%);
+  margin: 5px;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none!important;
+
+
+}
+.emote-container img{
+  width: 48px;
+}
+.emote-name{
+  display: block;
+  color: black;
+  text-decoration: none!important;
+  font-weight: inherit;
+}
